@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+.hell img{
+  width: 800px;
+  height: 500px;
+  background-size: cover;
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.6);
+  border-radius: 10px;
+}
+
+.vall h2{
+  color:white;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 35px;
+  font-weight: bold;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.vall p{
+  color: white;
+  text-align: justify;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+}
+
+.vall{
+  padding: 25px;
+}
+
+
+.imm img{
+  width: 800px;
+  height: 500px;
+  background-size: cover;
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.6);
+  border-radius: 10px;
+}
+
+.imm{
+  padding: 10px;
+}
+
+.ber{
+  padding: 25px;
+}
+
+
+.ber p {
+  text-align: justify;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+}
+
+.ber h3{
+  text-align: justify;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 35px;
+  text-align: center;
+}
+
+#isi-rating{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 2%;
+  padding: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 100%;
+  background-color:#1E177F;
+}
+
+#isi-rating .rate{
+  width: 60%;
+  height: 400px;
+  flex-basis: 40%;
+  flex-grow: 1;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  flex-direction: row;
+  background:rgba(255, 255, 255, 0.1) ;
+  color: white;
+}
+
+.jj{
+  float: left;
+  width: 50%;
+  height: 350px;
+  margin: 15px;
+  object-fit: cover;
+}
+
+.wee{
+  text-align: justify;
+  padding: 15px;
+}
+
+.rate h1{
+  font-family: 'Shadows Into Light', cursive;
+}
